@@ -1,0 +1,187 @@
+.company {
+  background-color: white;
+  position: relative;
+  min-width: 100%;
+}
+
+.company-image img {
+  width: 100%;
+}
+.company-logo img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  padding: 0 15px 0 15px;
+  margin: -100px auto 0 auto;
+  right: 5%;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.company-about {
+  display: block;
+  background-color: white;
+  padding: 30px 70px 70px 70px;
+}
+.company-about h1 {
+  text-align: left;
+  width: 15em;
+  margin-block: 0.4em;
+  line-height: 40px;
+}
+.company-about p {
+  margin-top: 25px;
+  text-align: left;
+  font-size: 22px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.company-line {
+  background-color: white;
+  margin-bottom: 60px;
+}
+.company-line span {
+  height: 3px;
+  display: block;
+  margin: 0 70px 0 70px;
+}
+
+.cards > div {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 4% 60px 4%;
+}
+.company-featured {
+  display: inline-flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 0 20px;
+  margin: auto;
+  width: 30%;
+}
+.company-featured .featured-cards {
+  width: 100%;
+}
+.company-featured .featured-cards button {
+  min-height: 150px;
+  height: 500px;
+  width: 100%;
+  border: 0;
+  border-radius: 10px;
+  padding: 0;
+  cursor: pointer;
+}
+.company-featured .featured-cards button .Building-preview {
+  height: 85%;
+  width: 100%;
+  bottom: 0;
+  position: sticky;
+  border-radius: 10px 10px 0 0;
+}
+
+.company-featured .featured-cards button .Building-preview img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+.company-featured .featured-cards button .Building-name {
+  height: 15%;
+  width: 100%;
+  bottom: 0;
+  border-radius: 0 0 10px 10px;
+  color: white;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  font-family: "Modernica", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+.company-featured .featured-cards button .Building-name .heading {
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 30px;
+}
+
+.company-featured .featured-cards button .Building-name .details {
+  font-size: 17px;
+  letter-spacing: 0px;
+  padding-top: 10px;
+  padding-left: 3px;
+  padding-right: 15px;
+}
+
+.bed {
+  padding-top: 5px;
+}
+
+.company .mid-image {
+  width: 100%;
+}
+
+/* Search */
+.company-search {
+  display: block;
+  width: 60%;
+  height: auto;
+  max-height: 200px;
+  background: rgba(200, 200, 200, 0.8);
+  padding: 0 15px 0 15px;
+  margin: -68px auto 0 auto;
+  left: 20%;
+  border-radius: 5px;
+  position: absolute;
+}
+.company-search h2 {
+  font-weight: bolder;
+  margin: 10px 0;
+}
+.company-search form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.company-search form .company-form-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+.company-search .company-form-field {
+  width: 49%;
+  display: inline-block;
+}
+.company-search form label {
+  width: 100%;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.company-search form input {
+  padding: 6px 0 5px 8px;
+  width: 97%;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+  border-color: black;
+  margin: 5px auto;
+}
+
+.company-search form .search-button button {
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px 0;
+  padding: 7px 14px;
+  color: white;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}

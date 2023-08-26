@@ -1,0 +1,296 @@
+/* General */
+.text-shadow {
+  text-shadow: 1px 1px 1px gray;
+}
+.text-shadow-s {
+  text-shadow: 0.5px 0.5px 0.5px gray;
+}
+.text-shadow-s-blur {
+  text-shadow: 0.7px 0.7px 0.7px #000a, -5px -5px 10px #0002,
+    5px -5px 10px #0002, -5px 5px 10px #0002, 5px 5px 10px #0002;
+}
+
+/* Smaller res */
+@media (max-width: 1300px) {
+  .individual-gallery .carousel .slick-track img {
+    width: 80% !important;
+  }
+  .individual-gallery .carousel .slick-arrow::before {
+    font-size: 40px !important;
+  }
+  .individual-gallery .carousel .slick-prev {
+    left: 3% !important;
+  }
+  .individual-gallery .carousel .slick-next {
+    right: 5% !important;
+  }
+}
+@media (max-width: 700px) {
+  .individual-gallery .carousel .slick-arrow::before {
+    font-size: 30px !important;
+  }
+  .individual-gallery .carousel .slick-prev {
+    left: 2% !important;
+  }
+  .individual-gallery .carousel .slick-next {
+    right: 4% !important;
+  }
+}
+
+.individual {
+  background-color: white;
+  position: relative;
+  min-width: 100%;
+}
+
+.individual-image img {
+  width: 100%;
+  max-height: 770px;
+  object-fit: cover;
+}
+.individual-logo img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  padding: 0 15px 0 15px;
+  margin: -100px auto 0 auto;
+  right: 5%;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.individual-about {
+  display: block;
+  background-color: white;
+  padding: 30px 70px 70px 70px;
+}
+.individual-about h1 {
+  text-align: left;
+  margin-block: 0.4em;
+  line-height: 40px;
+  margin-bottom: 0;
+}
+.individual-about h3 {
+  margin-top: 0;
+  text-align: left;
+}
+.individual-about p {
+  margin-top: 25px;
+  text-align: left;
+  font-size: 22px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.individual-line {
+  background-color: white;
+}
+.individual-line span {
+  height: 3px;
+  display: block;
+  margin: 0 70px 0 70px;
+}
+
+.individual-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.individual-gallery h1 {
+  margin: 40px 0 20px 0;
+}
+.individual-gallery .carousel .slick-slide div {
+  outline: none !important;
+}
+.individual-gallery .carousel .slick-track img {
+  width: 55%;
+  object-fit: cover;
+  margin: 20px auto;
+  box-shadow: 0 0 20px #000000a0;
+}
+.individual-gallery .carousel .slick-track .video {
+  object-fit: cover;
+  margin: 20px auto;
+  box-shadow: 0 0 20px #000000a0;
+  margin-top: 150px;
+  width: 80%;
+}
+
+.individual-gallery .carousel .slick-arrow::before {
+  font-size: 50px;
+}
+.individual-gallery .carousel .slick-prev {
+  left: 10%;
+  z-index: 1;
+}
+.individual-gallery .carousel .slick-next {
+  right: 10%;
+}
+.individual-gallery p {
+  margin: 40px 20%;
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.individual-plans {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.individual-plans h1 {
+  margin-bottom: 5px;
+}
+
+.individual-plans p {
+  margin: 5px 20% 50px;
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.individual-plans .info-box {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  margin-top: 10px;
+}
+
+.individual-plans .information {
+  margin: 30px;
+  width: 80%;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.information h1 {
+  margin-bottom: 30px;
+}
+
+.INFO {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.INFO h3 {
+  margin-bottom: 10px;
+}
+
+.INFO h4 {
+  margin: 0;
+  font-weight: 300;
+}
+
+.head {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.points ul {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  position: relative;
+  font-weight: 300;
+  text-align: center;
+  list-style-type: none;
+}
+
+.points ul li {
+  flex-basis: 50%;
+  margin-bottom: 10px;
+}
+
+.floor {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.plan {
+  flex-basis: 60%;
+  margin-bottom: 60px;
+}
+
+.plan img {
+  width: 60%;
+  height: 100%;
+  border: solid 1px;
+}
+
+.name {
+  flex-basis: 40%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.name h1 {
+  margin-top: 0;
+}
+
+.contact {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.contact p {
+  margin: 5px 20% 50px;
+  font-weight: 300;
+  font-size: 22px;
+}
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  border-radius: 25px;
+  position: relative;
+  padding: 0px 15px 10px;
+  margin: 30px 0;
+  box-shadow: 0 2px 5px #ccc;
+  text-align: left;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 0;
+}
+
+.card h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.card h2 {
+  margin: 0;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.information a {
+  color: black;
+}

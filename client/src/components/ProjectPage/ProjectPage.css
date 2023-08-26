@@ -1,0 +1,238 @@
+/* General */
+.black-text {
+  color: black !important;
+}
+.text-shadow {
+  text-shadow: 1px 1px 1px gray;
+}
+.text-shadow-s {
+  text-shadow: 0.5px 0.5px 0.5px gray;
+}
+.text-shadow-s-blur {
+  text-shadow: 0.7px 0.7px 0.7px #000a, -5px -5px 10px #0002, 5px -5px 10px #0002, -5px 5px 10px #0002, 5px 5px 10px #0002;
+}
+
+/* Smaller res */
+@media (max-width: 1300px) {
+  .project-location {
+    width: 540px !important;
+  }
+  .project-location .description {
+    width: 100% !important;
+  }
+  .project-location .amenity {
+    margin: 20px 50px !important;
+  }
+
+  .project-gallery .carousel .slick-track img {
+    width: 80% !important;
+  }
+  .project-gallery .carousel .slick-arrow::before {
+    font-size: 40px !important;
+  }
+  .project-gallery .carousel .slick-prev {
+    left: 3% !important;
+  }
+  .project-gallery .carousel .slick-next {
+    right: 5% !important;
+  }
+}
+@media (max-width: 700px) {
+  .project-location {
+    width: 320px !important;
+  }
+  .project-location .description {
+    width: 100% !important;
+  }
+  .project-location .amenity {
+    margin: 20px 40px !important;
+  }
+  
+  .project-gallery .carousel .slick-arrow::before {
+    font-size: 30px !important;
+  }
+  .project-gallery .carousel .slick-prev {
+    left: 2% !important;
+  }
+  .project-gallery .carousel .slick-next {
+    right: 4% !important;
+  }
+}
+
+.project {
+  background-color: white;
+  position: relative;
+  min-width: 100%;
+}
+
+.project-image img {
+  width: 100%;
+  max-height: 770px;
+  object-fit: cover;
+}
+.project-logo img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  padding: 0 15px 0 15px;
+  margin: -100px auto 0 auto;
+  right: 5%;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.project-about {
+  display: block;
+  background-color: white;
+  padding: 30px 70px 70px 70px;
+}
+.project-about h1 {
+  text-align: left;
+  width: 15em;
+  margin-block: 0.4em;
+  line-height: 40px;
+}
+.project-about p {
+  margin-top: 25px;
+  text-align: left;
+  font-size: 22px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.project-line {
+  background-color: white;
+}
+.project-line span {
+  height: 3px;
+  display: block;
+  margin: 0 70px 0 70px;
+}
+
+.project-location {
+  width: 1200px;
+  margin: 70px auto auto auto;
+  text-align: center;
+}
+.project-location .description {
+  font-size: 22px;
+  font-weight: 300;
+  width: 60%;
+  margin: auto;
+}
+.project-location .nearby-amenities {
+  margin: 60px 0 40px 0;
+  display: inline-block;
+}
+.project-location .amenity {
+  display: inline-block;
+  margin: 0 60px;
+}
+.project-location .amenity img {
+  height: 40px;
+  float: left;
+}
+.project-location .amenity p {
+  font-size: 28px;
+  margin: 8px 0 8px 20px;
+  float: left;
+}
+
+.project-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.project-gallery h1 {
+  margin: 40px 0 20px 0;
+}
+.project-gallery .carousel .slick-slide div{
+  outline: none !important;
+}
+.project-gallery .carousel .slick-track img {
+  width: 55%;
+  object-fit: cover;
+  margin: 20px auto;
+  box-shadow: 0 0 20px #000000a0 ;
+}
+.project-gallery .carousel .slick-arrow::before {
+  font-size: 50px;
+}
+.project-gallery .carousel .slick-prev {
+  left: 10%;
+  z-index: 1;
+}
+.project-gallery .carousel .slick-next {
+  right: 10%;
+}
+.project-gallery p {
+  margin: 40px 20%;
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.project .mid-image {
+  width: 100%;
+}
+
+/* Search */
+.project-search {
+  display: block;
+  width: 60%;
+  height: auto;
+  max-height: 200px;
+  background: rgba(200, 200, 200, 0.8);
+  padding: 0 15px 0 15px;
+  margin: -68px auto 0 auto;
+  left: 20%;
+  border-radius: 5px;
+  position: absolute;
+}
+.project-search h2 {
+  font-weight: bolder;
+  margin: 10px 0;
+}
+.project-search form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.project-search form .project-form-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+.project-search .project-form-field {
+  width: 49%;
+  display: inline-block;
+}
+.project-search form label {
+  width: 100%;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.project-search form input {
+  padding: 6px 0 5px 8px;
+  width: 97%;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+  border-color: black;
+  margin: 5px auto;
+}
+
+.project-search form .search-button button {
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px 0;
+  padding: 7px 14px;
+  color: white;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}

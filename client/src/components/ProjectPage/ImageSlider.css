@@ -1,0 +1,155 @@
+.project .slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  padding-bottom: 50px;
+  background-color: white;
+}
+
+.project .results {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-radius: 7px;
+  box-shadow: 0 0 20px #ccc;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+.project .image-slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 330px;
+  position: relative;
+  border-radius: 7px;
+  object-fit: cover;
+}
+
+.project .slider-image {
+  max-width: 100%;
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.project .slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  border: none;
+  background: transparent;
+  color: black;
+  cursor: pointer;
+}
+
+.project .slider-button-left {
+  left: 10px;
+}
+
+.project .slider-button-right {
+  right: 10px;
+}
+
+.project .slider-button:hover {
+  color: #000;
+}
+
+.project .slider-button:focus {
+  outline: none;
+}
+
+.project .info {
+  width: 500px;
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: white;
+}
+
+.project .flat-info-box-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.project .flat-info-box-description {
+  margin-bottom: 10px;
+  font-family: "sans-serif";
+  font-size: 12px;
+}
+
+.project .values {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.project .values h4 {
+  flex: 1;
+  text-align: left;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.project .inputs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.project .inputs p {
+  flex: 1;
+  text-align: left;
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-family: "sans-serif";
+}
+
+.project .line {
+  background-color: white;
+  margin-bottom: 5px;
+}
+.project .line span {
+  height: 3px;
+  display: block;
+  margin: 0 450px 0px 0px;
+}
+
+.project .bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}
+
+.project .bottom img {
+  width: 15px;
+  height: 26px;
+  padding-top: 8px;
+  padding-right: 10px;
+}
+
+.project .bottom button {
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px 0;
+  padding: 7px 14px;
+  color: white;
+  font-family: inherit;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-left: auto;
+}

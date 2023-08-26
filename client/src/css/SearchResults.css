@@ -1,0 +1,21 @@
+.hero-results {
+	display: flex;
+	justify-content: space-between;
+	min-height: 400px;
+	background-color: white;
+	padding: 100px 2%;
+}
+
+.hero-results > div {
+	width: auto;
+}
+
+.hero-results > h1 {
+	margin: auto;
+}
+
+.hero-results > div > h2 {
+	color: grey;
+	text-align: center;
+	margin-top: 100px;
+}

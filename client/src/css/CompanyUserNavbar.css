@@ -1,0 +1,39 @@
+.companyuser-nav {
+	height: 100px;
+	background-color: rgba(42,107,77,1);
+	display: block;
+}
+
+.companyuser-nav .button-burger {
+  background-color: transparent;
+  border: none;
+  display: inline-block;
+  height: 23px;
+  position: relative;
+  width: 30px;
+  z-index: 4;
+  cursor: pointer;
+}
+
+.companyuser-nav .bar {
+  background-color: #fff;
+  display: block;
+  height: 3px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  transition: transform 0.3s ease-in-out, height 0.1s linear;
+  width: 30px;
+}
+
+.companyuser-nav .bar-1 {
+  top: 0;
+}
+
+.companyuser-nav .bar-2 {
+  margin-top: -2px;
+}
+
+.companyuser-nav .bar-3 {
+  bottom: 0;
+}
