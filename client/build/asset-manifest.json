@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.692f1d71.css",
+    "main.js": "/static/js/main.7f339e5a.js",
+    "static/js/787.994511a4.chunk.js": "/static/js/787.994511a4.chunk.js",
+    "static/media/Home_Page_1.png": "/static/media/Home_Page_1.2564e233a13353355ccd.png",
+    "static/media/Company_01.png": "/static/media/Company_01.6791607c3fb07359bc5f.png",
+    "static/media/mid-company.png": "/static/media/mid-company.8743850b36d329a06671.png",
+    "static/media/ModernicaMEFA-Bold.ttf": "/static/media/ModernicaMEFA-Bold.0402dd25042376d82ce9.ttf",
+    "static/media/ModernicaMEFA-Book.ttf": "/static/media/ModernicaMEFA-Book.33992d7058ad7e6c1a20.ttf",
+    "static/media/ModernicaMEFA-Light.ttf": "/static/media/ModernicaMEFA-Light.7a779a3bf2e71d815404.ttf",
+    "static/media/ModernicaMEFA-Heavy.ttf": "/static/media/ModernicaMEFA-Heavy.7d7d9cb1732a201750c8.ttf",
+    "static/media/ModernicaMEFA-Regular.ttf": "/static/media/ModernicaMEFA-Regular.db9d7b580158b59e48d5.ttf",
+    "static/media/ModernicaMEFA-Thin.ttf": "/static/media/ModernicaMEFA-Thin.286b7d4fa3dca29720fa.ttf",
+    "static/media/Company_01_Logo.png": "/static/media/Company_01_Logo.59470f979f0371161da2.png",
+    "static/media/forest.png": "/static/media/forest.8da148d9dc0b47e39137.png",
+    "static/media/basket.png": "/static/media/basket.dc53cdc5d5aa5f7cfbb4.png",
+    "static/media/MEFA_LOGO_plane.png": "/static/media/MEFA_LOGO_plane.d5c6f59de9f8ebc6d9c4.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.692f1d71.css.map": "/static/css/main.692f1d71.css.map",
+    "main.7f339e5a.js.map": "/static/js/main.7f339e5a.js.map",
+    "787.994511a4.chunk.js.map": "/static/js/787.994511a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.692f1d71.css",
+    "static/js/main.7f339e5a.js"
+  ]
+}
